@@ -1,6 +1,8 @@
-# 📝 Lista de Tarefas (To-Do List)
+# 📝 Lista de Tarefas (To-Do List React)
 
 Este projeto é uma aplicação web de Lista de Tarefas construída com **React**, **Vite** e **React Router DOM**. Ele serve como um guia prático para iniciantes no desenvolvimento front-end, focando em conceitos essenciais como a criação de componentes, gerenciamento de estado e navegação entre rotas.
+
+![Preview da Lista de Tarefas](to-do-list-react.png)
 
 ## ✨ Funcionalidades
 
