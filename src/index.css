@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #5B6E2F;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .app-container {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -21,9 +21,14 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #000000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h2 {
+  color: #000000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .task-form {
   display: flex;
   gap: 10px;
@@ -35,20 +40,22 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .task-form button {
   padding: 10px 15px;
   border: none;
-  background-color: #007bff;
+  background-color: #5B6E2F;
   color: white;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .task-form button:hover {
-  background-color: #0056b3;
+  background-color: #0d3b04;
 }
 
 .task-list {
@@ -61,7 +68,8 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .task-item:last-child {
@@ -70,7 +78,7 @@ h1 {
 
 .task-item.completed span {
   text-decoration: line-through;
-  color: #999;
+  color: #88ee35;
 }
 
 .task-item-actions button {
@@ -89,14 +97,15 @@ h1 {
 
 .header-nav a {
   text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
+  color: #5B6E2F;
+  font-weight: bolder;
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header-nav a:hover,
 .header-nav a.active {
-  background-color: #e9ecef;
+  background-color: #e9ecef42;
 }
