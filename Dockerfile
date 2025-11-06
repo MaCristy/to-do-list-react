@@ -1,5 +1,5 @@
 # Imagem base oficial do Node.js (versão LTS recomendada)
-FROM node:18
+FROM node
 
 # Labels de metadados
 LABEL maintainer="Maria Cristina <mariacristinan147@gmail.com>" \
@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 5173
 
 # Comando para rodar a aplicação
-CMD ["node", "server.js"]
+CMD ["npm", "run", "dev"]
